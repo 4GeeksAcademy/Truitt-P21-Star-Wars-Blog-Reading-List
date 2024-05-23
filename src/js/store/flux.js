@@ -42,4 +42,22 @@ const getState = ({ getStore, getActions, setStore }) => {
 	};
 };
 
+	return {
+		store: {
+			characters: [
+				{
+				properties: {
+					name: 'Truitt',
+					height: '2m'
+				},
+				description: 'This character is cool'
+			},
+			],
+			planets: [],
+			vehicles: []
+		},
+		actions: {
+		}
+	};
+
 export default getState;
